@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paktech SYSTEM "external.dtd" [
+
+<!ENTITY ps "pass1122">
+]>
+
+<paktech>
+    <employee>
+        <name>aliya</name>
+        <email domain="https://www.hehe.com">aliya@gmail.com</email>
+        <password>a22222</password>
+    </employee>
+    <employee>
+        <name>farah</name>
+        <number>02233443</number>
+        <password>a26622</password>
+    </employee>
+    <employee>
+        <name>sana</name>
+        <email domain="https://www.hehe.com">sana@gmail.com</email>
+        <password>a24422</password>
+    </employee>
+    <client>
+        <name>saira</name>
+        <email domain="https://www.hehe.com">saira@gmail.com</email>
+        <password>&ps;</password>
+    </client>
+</paktech>      

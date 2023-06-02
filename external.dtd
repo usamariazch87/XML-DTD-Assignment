@@ -1,0 +1,8 @@
+<!ELEMENT paktech (employee+, client?)>
+    <!ELEMENT employee (name, (email|number), password)>
+    <!ELEMENT client (name, email, password)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT number (#PCDATA)>
+    <!ELEMENT password (#PCDATA)>
+<!ATTLIST email domain CDATA #REQUIRED>
